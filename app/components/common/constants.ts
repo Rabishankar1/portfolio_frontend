@@ -61,7 +61,7 @@ class Experience {
 
 export const EXPERIENCE_LIST = [
   [
-    "React Developer",
+    "Merlin AI",
     "Software Engineer",
     new Date(2023, 5),
     "current",
@@ -71,7 +71,7 @@ export const EXPERIENCE_LIST = [
     Led code reviews and agile sprint planning, ensuring adherence to React best practices, TypeScript safety, and performance benchmarks.\n
     Optimized state management with React hooks and Context API, reducing unnecessary re-renders and improving API efficiency.\n
     Identified and resolved performance bottlenecks, cutting response times by 50% using memoization, batched updates, and caching strategies.`,
-    "/images/companies/foundit_jobs_logo.jpeg",
+    "/images/companies/merlin_ai_co_logo.jpg",
   ],
   [
     "Foundit(formerly Monster)",
@@ -84,7 +84,7 @@ export const EXPERIENCE_LIST = [
     Pioneered a feature, ensuring seamless communication capabilities across multiple user interfaces.\n
     Facilitated efficient talent management operations by developing and implementing a dynamic candidate reassignment feature.\n
     Led multiple critical technology projects, focusing on systems improvements, process optimizations, and user engagement enhancements`,
-    "/images/companies/merlin_ai_co_logo.jpg",
+    "/images/companies/foundit_jobs_logo.jpeg",
   ],
   [
     "Basanti Auto Agency",
