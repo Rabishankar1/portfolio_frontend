@@ -61,17 +61,30 @@ class Experience {
 
 export const EXPERIENCE_LIST = [
   [
-    "Foundit(formerly Monster)",
+    "React Developer",
     "Software Engineer",
     new Date(2023, 5),
     "current",
+    "WFH",
+    `Built responsive, high-performance UIs using React and Next.js, optimizing page load speed by 40% through code splitting, lazy loading, and server-side rendering (SSR).\n
+    Owned and delivered critical feature enhancements, including advanced filtering and real-time updates, improving customer engagement by 25%\n
+    Led code reviews and agile sprint planning, ensuring adherence to React best practices, TypeScript safety, and performance benchmarks.\n
+    Optimized state management with React hooks and Context API, reducing unnecessary re-renders and improving API efficiency.\n
+    Identified and resolved performance bottlenecks, cutting response times by 50% using memoization, batched updates, and caching strategies.`,
+    "/images/companies/foundit_jobs_logo.jpeg",
+  ],
+  [
+    "Foundit(formerly Monster)",
+    "Software Engineer",
+    new Date(2023, 5),
+    new Date(2023, 5),
     "Bengaluru",
     `Engineered an innovative visual analytics feature within the customer data platform to show employments in a specific graphical form, delivering within strict deadlines.\n
     Designed and implemented a complex visual analytics feature within the customer data platform, achieving project goals within a tight deadline.\n
     Pioneered a feature, ensuring seamless communication capabilities across multiple user interfaces.\n
     Facilitated efficient talent management operations by developing and implementing a dynamic candidate reassignment feature.\n
     Led multiple critical technology projects, focusing on systems improvements, process optimizations, and user engagement enhancements`,
-    "/images/companies/foundit_jobs_logo.jpeg",
+    "/images/companies/merlin_ai_co_logo.jpg",
   ],
   [
     "Basanti Auto Agency",
@@ -88,17 +101,17 @@ export const EXPERIENCE_LIST = [
     `,
     "/images/companies/basanti.jpeg",
   ],
-  [
-    "Aerchain",
-    "Frontend Developer Intern",
-    new Date(2021, 1),
-    new Date(2023, 6),
-    "Bengaluru",
-    ` Worked in React JS for majorly frontend development tasks.\n
-    Created various features and two complete modules \n
-    Picked up skills in Frontend technologies and got to apply them`,
-    "/images/companies/aerchain_io_logo.jpeg"
-  ],
+  // [
+  //   "Aerchain",
+  //   "Frontend Developer Intern",
+  //   new Date(2021, 1),
+  //   new Date(2023, 6),
+  //   "Bengaluru",
+  //   ` Worked in React JS for majorly frontend development tasks.\n
+  //   Created various features and two complete modules \n
+  //   Picked up skills in Frontend technologies and got to apply them`,
+  //   "/images/companies/aerchain_io_logo.jpeg"
+  // ],
 ].map(
   (experience: any) =>
     new Experience(
