@@ -8,10 +8,7 @@ import Avatar from "./Avatar";
 
 const About = () => {
   const handleOpenResume = () => {
-    window.open(
-      "https://drive.google.com/file/d/1DMqnFWBAgARN4Jt_Wi-uJjspMlBUldnF/view?usp=drive_link",
-      "_blank"
-    );
+    window.open("/Rabishankar_Panigrahi_Resume_2026-03-02.pdf", "_blank");
   };
   return (
     <Bounded className="about">

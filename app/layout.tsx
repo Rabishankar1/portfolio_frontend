@@ -10,7 +10,7 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Rabishankar's Portfolio",
-  description: "Modern and minimalist JS Portfolio",
+  description: "Portfolio of Rabishankar Panigrahi, Fullstack Developer",
   icons: "/R_simple.jpg",
 };
 

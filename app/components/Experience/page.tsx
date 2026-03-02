@@ -30,6 +30,12 @@ const ExperienceTimelineElement = ({ experience }: any) => {
     logo,
   } = experience;
 
+  const formatDateRange = (start: Date, end: Date | "current") => {
+    const startLabel = moment(start).format("MMM YYYY");
+    const endLabel = end === "current" ? "Present" : moment(end).format("MMM YYYY");
+    return `${startLabel} - ${endLabel}`;
+  };
+
   return (
     <div ref={ref} className="vertical-timeline-element">
       <VerticalTimelineElement
@@ -41,7 +47,7 @@ const ExperienceTimelineElement = ({ experience }: any) => {
         contentArrowStyle={{
           borderRight: "7px solid rgb(71 85 105)",
         }}
-        date={moment(start_date).format("D MMMM YYYY")}
+        date={formatDateRange(start_date, end_date)}
         iconStyle={{ background: "white", color: "#fff" }}
         icon={
           <IconButton>

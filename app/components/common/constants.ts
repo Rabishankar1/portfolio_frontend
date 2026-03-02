@@ -1,11 +1,11 @@
 export const FIRST_NAME = "Rabishankar";
 export const LAST_NAME = "Panigrahi";
-export const TAG = "Creative Developer";
-export const ABOUT_ME = `Hello, I'm Rabishankar, a Software Engineer passionate about merging creativity with technical proficiency. I bring to the table a unique blend of creativity and technical expertise, allowing me to approach problems from different angles and devise innovative solutions. Whether it's developing sleek user interfaces, optimizing processes, or tackling complex algorithms, I'm always up for the challenge. \n
+export const TAG = "Fullstack Developer";
+export const ABOUT_ME = `I'm a Fullstack Developer based in Bengaluru, currently working as Lead Frontend Engineer at Adiuvo.
 
-Outside of coding, I'm an avid explorer of all things creative. Whether it's movies, art or painting, I find inspiration in diverse pursuits that fuel my creativity and enrich my perspective as a software engineer. \n
+I build product-grade web applications with React, Next.js, TypeScript, and Tailwind CSS, and I also work across backend integrations with Node.js, Express, and MongoDB. My recent work focuses on AI-assisted workflows, real-time systems, and document-heavy interfaces where performance and reliability matter.
 
-I'm excited to connect with fellow professionals, collaborate on exciting projects, and contribute to meaningful innovations in the world of technology. Let's connect and explore how we can make a difference together.`;
+I completed my B.E. in Mechanical Engineering from BITS Pilani, Hyderabad Campus (2017-2021) and moved into software engineering full-time, where I enjoy owning features end-to-end from UI architecture to delivery.`;
 export const GITHUB_LINK = "https://github.com/Rabishankar1";
 export const TWITTER_LINK = "https://x.com/Rabi2569";
 export const LINKEDIN_LINK =
@@ -25,11 +25,11 @@ class Tech {
 export const TECH_LIST = [
   ["REACT", "#29D8FF"],
   ["NEXT.JS", "#FFFFFF"],
-  ["GSAP", "#61DB16"],
-  ["THREE.JS", "#000000"],
-  ["NODE", "#2B6309"],
-  ["MONGO", "#F7A12F"],
-  ["EXPRESS", "#2780CF"],
+  ["TYPESCRIPT", "#3178C6"],
+  ["TAILWIND", "#38BDF8"],
+  ["NODE.JS", "#83CD29"],
+  ["MONGODB", "#47A248"],
+  ["SOCKET.IO", "#F59E0B"],
 ].map((tech) => new Tech(tech[0], tech[1]));
 
 class Experience {
@@ -61,57 +61,58 @@ class Experience {
 
 export const EXPERIENCE_LIST = [
   [
-    "Merlin AI",
-    "Software Engineer",
-    new Date(2023, 5),
+    "Adiuvo",
+    "Lead Frontend Engineer",
+    new Date(2025, 3),
     "current",
-    "WFH",
-    `Built responsive, high-performance UIs using React and Next.js, optimizing page load speed by 40% through code splitting, lazy loading, and server-side rendering (SSR).\n
-    Owned and delivered critical feature enhancements, including advanced filtering and real-time updates, improving customer engagement by 25%\n
-    Led code reviews and agile sprint planning, ensuring adherence to React best practices, TypeScript safety, and performance benchmarks.\n
-    Optimized state management with React hooks and Context API, reducing unnecessary re-renders and improving API efficiency.\n
-    Identified and resolved performance bottlenecks, cutting response times by 50% using memoization, batched updates, and caching strategies.`,
+    "Bangalore, India",
+    `- Led frontend development of a multi-module AI-assisted record management platform built with Next.js and React.
+- Designed a reusable data-view framework using TanStack Query, shared hooks, and Socket.IO for search, sort, filter, pagination, optimistic updates, and real-time sync, reducing feature lead time by about 40%.
+- Built a scalable UI system using Tailwind CSS v4, Radix UI primitives, and class-variance patterns across dashboards and workflow screens.
+- Implemented complex interaction workflows including drag-and-drop interfaces (dnd-kit), async form handling, and multi-state UI transitions.
+- Architected the in-app AI assistant layer with streaming chat UI, tool-call routing, automated workflows, and notification pipelines.
+- Delivered advanced document handling using pdfjs, react-pdf, pdf-lib, viewerjs, and markdown rendering with robust fallback and error handling.
+- Improved performance and reliability with virtualized rendering, guarded re-renders, lazy loading, SSR-aware components, bundle optimization, IndexedDB state recovery, and CI/CD quality checks.`,
+    "/images/adiuvo.png",
+  ],
+  [
+    "MerlinAI",
+    "React Developer (Contractual)",
+    new Date(2024, 8),
+    new Date(2025, 2),
+    "Remote",
+    `- Implemented an AI-powered chatbot that rendered different response types with type-aware visual output.
+- Integrated GraphQL APIs into a candidate profile platform for efficient retrieval and dynamic filtering.
+- Built responsive high-performance UIs with React and Next.js, improving load speed by about 40% via code splitting, lazy loading, and SSR.
+- Optimized state management with React Hooks and Context API to reduce re-renders and improve API efficiency.`,
     "/images/companies/merlin_ai_co_logo.jpg",
   ],
   [
-    "Foundit(formerly Monster)",
+    "Foundit (formerly Monster)",
     "Software Engineer",
-    new Date(2023, 5),
-    new Date(2023, 5),
-    "Bengaluru",
-    `Engineered an innovative visual analytics feature within the customer data platform to show employments in a specific graphical form, delivering within strict deadlines.\n
-    Designed and implemented a complex visual analytics feature within the customer data platform, achieving project goals within a tight deadline.\n
-    Pioneered a feature, ensuring seamless communication capabilities across multiple user interfaces.\n
-    Facilitated efficient talent management operations by developing and implementing a dynamic candidate reassignment feature.\n
-    Led multiple critical technology projects, focusing on systems improvements, process optimizations, and user engagement enhancements`,
+    new Date(2023, 4),
+    new Date(2024, 7),
+    "Bangalore, India",
+    `- Integrated generative AI functionality into the email outreach module to improve response rates.
+- Added WebSocket-based real-time updates in the customer data platform for synchronized analytics and profile changes.
+- Developed visual analytics for candidate employment data in an actionable graphical format.
+- Built middleware and API integrations using Node.js and Express in a MERN stack workflow.
+- Implemented MongoDB/Mongoose CRUD flows and received a high ownership award for delivery and leadership.`,
     "/images/companies/foundit_jobs_logo.jpeg",
   ],
   [
-    "Basanti Auto Agency",
+    "Mahindra Dealership (Basanti Auto Agency)",
     "Frontend Developer",
     new Date(2021, 7),
-    new Date(2023, 4),
-    "Balasore",
-    `Contributed to the automobile business of car dealerships which is spread across 14 cities of Northern Odisha.\n
-    Built an end-to-end reconciliation framework to fix any leakage of stocks, accessories of Mahindra automotive parts since the business is spread across multiple locations.\n
-    Designed and implemented a real-time tracking dashboard with MUI and D3.js for visualizing vehicle parts and accessories, improving inventory management and decision-making.\n
-    Created responsive and user-friendly interfaces using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and optimal performance for internal tools and customer portals.\n
-    Developed a sales performance dashboard and financial reporting interfaces using React and Chart.js, aiding strategic decision-making and financial analysis.\n
-    Integrated frontend applications with backend services using RESTful APIs, automating business processes and reducing manual efforts, resulting in increased operational efficiency.
-    `,
+    new Date(2023, 3),
+    "Balasore, India",
+    `- Built a web-based reconciliation framework with React to track and fix stock leakage across multiple locations.
+- Designed and implemented a real-time tracking dashboard using MUI and D3.js for parts and accessory visibility.
+- Created responsive interfaces with HTML, CSS, and TypeScript for internal tools and customer-facing workflows.
+- Developed sales and financial reporting dashboards with React and Chart.js for decision support.
+- Integrated frontend applications with RESTful backend services to automate business processes and reduce manual effort.`,
     "/images/companies/basanti.jpeg",
   ],
-  // [
-  //   "Aerchain",
-  //   "Frontend Developer Intern",
-  //   new Date(2021, 1),
-  //   new Date(2023, 6),
-  //   "Bengaluru",
-  //   ` Worked in React JS for majorly frontend development tasks.\n
-  //   Created various features and two complete modules \n
-  //   Picked up skills in Frontend technologies and got to apply them`,
-  //   "/images/companies/aerchain_io_logo.jpeg"
-  // ],
 ].map(
   (experience: any) =>
     new Experience(
@@ -148,7 +149,7 @@ export class Project {
 
 export const PROJECTS = [
   [
-    "Shopping app",
+    "E-commerce Application",
     [
       "React JS",
       "NodeJS",
@@ -162,25 +163,18 @@ export const PROJECTS = [
     "shopping1",
   ],
   [
-    "Video streaming and uploading app",
+    "Video Viewing Application",
     ["React", "Javascript", "Emotion styled"],
     "https://rabishankar-xflix.netlify.app",
     "/images/thumbnails/xflix.avif",
     "video1",
   ],
   [
-    "Real Estate app",
+    "Real Estate Application",
     ["React", "MaterialUI", "TailwindCSS", "Bootstrap"],
     "https://rabishankar-real-estate.netlify.app/",
     "/images/thumbnails/real_estate.avif",
     "realestate1",
-  ],
-  [
-    "Travel app",
-    ["React", "HTML", "Javascript", "Responsive design"],
-    "https://rabishankar-travel-app.netlify.app",
-    "/images/thumbnails/travel.avif",
-    "travel2",
   ],
 ].map(
   (project: any) =>
